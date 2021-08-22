@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheEmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Empresa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem lectus. Suspendisse suscipit purus eget fermentum ultricies. Sed at erat ut ipsum gravida ultricies. Vivamus imperdiet turpis et lectus malesuada feugiat. Vivamus vitae nisl a nisl hendrerit elementum quis eu arcu. Integer suscipit pellentesque lacus et ornare. Pellentesque ac neque ut velit tristique volutpat. Nulla pretium vehicula velit nec laoreet. Maecenas iaculis, risus vitae vulputate hendrerit, est nulla aliquam arcu, eget maximus tortor orci id lacus. Phasellus egestas finibus ipsum, eget porttitor ipsum pharetra sit amet. Praesent a odio vel felis aliquam eleifend ut a diam. Aliquam dignissim aliquet mauris, at vestibulum libero ullamcorper malesuada. Phasellus tincidunt neque ut nisl pretium pellentesque. Nulla lacinia, diam non malesuada tempus, mauris mi pellentesque nibh, in porttitor nulla risus ut libero. Nulla semper nisi lacus, ut fermentum lectus dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem lectus. Suspendisse suscipit purus eget fermentum ultricies. Sed at erat ut ipsum gravida ultricies. Vivamus imperdiet turpis et lectus malesuada feugiat. Vivamus vitae nisl a nisl hendrerit elementum quis eu arcu. Integer suscipit pellentesque lacus et ornare. Pellentesque ac neque ut velit tristique volutpat. Nulla pretium vehicula velit nec laoreet. Maecenas iaculis, risus vitae vulputate hendrerit, est nulla aliquam arcu, eget maximus tortor orci id lacus. Phasellus egestas finibus ipsum, eget porttitor ipsum pharetra sit amet. Praesent a odio vel felis aliquam eleifend ut a diam. Aliquam dignissim aliquet mauris, at vestibulum libero ullamcorper malesuada. Phasellus tincidunt neque ut nisl pretium pellentesque. Nulla lacinia, diam non malesuada tempus, mauris mi pellentesque nibh, in porttitor nulla risus ut libero. Nulla semper nisi lacus, ut fermentum lectus dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem lectus. Suspendisse suscipit purus eget fermentum ultricies. Sed at erat ut ipsum gravida ultricies. Vivamus imperdiet turpis et lectus malesuada feugiat. Vivamus vitae nisl a nisl hendrerit elementum quis eu arcu. Integer suscipit pellentesque lacus et ornare. Pellentesque ac neque ut velit tristique volutpat. Nulla pretium vehicula velit nec laoreet. Maecenas iaculis, risus vitae vulputate hendrerit, est nulla aliquam arcu, eget maximus tortor orci id lacus. Phasellus egestas finibus ipsum, eget porttitor ipsum pharetra sit amet. Praesent a odio vel felis aliquam eleifend ut a diam. Aliquam dignissim aliquet mauris, at vestibulum libero ullamcorper malesuada. Phasellus tincidunt neque ut nisl pretium pellentesque. Nulla lacinia, diam non malesuada tempus, mauris mi pellentesque nibh, in porttitor nulla risus ut libero. Nulla semper nisi lacus, ut fermentum lectus dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem lectus. Suspendisse suscipit purus eget fermentum ultricies. Sed at erat ut ipsum gravida ultricies. Vivamus imperdiet turpis et lectus malesuada feugiat. Vivamus vitae nisl a nisl hendrerit elementum quis eu arcu. Integer suscipit pellentesque lacus et ornare. Pellentesque ac neque ut velit tristique volutpat. Nulla pretium vehicula velit nec laoreet. Maecenas iaculis, risus vitae vulputate hendrerit, est nulla aliquam arcu, eget maximus tortor orci id lacus. Phasellus egestas finibus ipsum, eget porttitor ipsum pharetra sit amet. Praesent a odio vel felis aliquam eleifend ut a diam. Aliquam dignissim aliquet mauris, at vestibulum libero ullamcorper malesuada. Phasellus tincidunt neque ut nisl pretium pellentesque. Nulla lacinia, diam non malesuada tempus, mauris mi pellentesque nibh, in porttitor nulla risus ut libero. Nulla semper nisi lacus, ut fermentum lectus dignissim dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem lectus. Suspendisse suscipit purus eget fermentum ultricies. Sed at erat ut ipsum gravida ultricies. Vivamus imperdiet turpis et lectus malesuada feugiat. Vivamus vitae nisl a nisl hendrerit elementum quis eu arcu. Integer suscipit pellentesque lacus et ornare. Pellentesque ac neque ut velit tristique volutpat. Nulla pretium vehicula velit nec laoreet. Maecenas iaculis, risus vitae vulputate hendrerit, est nulla aliquam arcu, eget maximus tortor orci id lacus. Phasellus egestas finibus ipsum, eget porttitor ipsum pharetra sit amet. Praesent a odio vel felis aliquam eleifend ut a diam. Aliquam dignissim aliquet mauris, at vestibulum libero ullamcorper malesuada. Phasellus tincidunt neque ut nisl pretium pellentesque. Nulla lacinia, diam non malesuada tempus, mauris mi pellentesque nibh, in porttitor nulla risus ut libero. Nulla semper nisi lacus, ut fermentum lectus dignissim dapibus." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
